@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 import { Button } from "../ui/button";
 import { useState } from "react";
-import { set } from "react-hook-form";
-
 type UserCardProps = {
   user: Models.Document;
 };
